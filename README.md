@@ -1,1 +1,0 @@
-# IA_o_Sabio
