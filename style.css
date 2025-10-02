@@ -28,9 +28,40 @@
 
     width: 50%;
   }
+  h1{
+    color: var(--cor-secundaria);
+}
 
-  #Osabio{
+.imagem-principal{
+    width: 50%;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+
+button{
+background-color: var(--cor-secundaria);
+color: var(--cor-texto);
+border: none;
+border-radius: 15px;
+padding: 15px;
+transition:background-color 0.3s;
+
+}
+button:hover{
+    background-color: var(--cor-destaque);
+    color:var(--cor-principal);
+}
+
+input{
+    padding: 10px;
+    border-radius: 15px;
+    border: none;
+    text-align: center;
+    margin: 10px;
+}
+
+  #Osabio_IA{
 width: 95%;
 border-radius: 15px;
-
+padding: 30px;
   }
